@@ -1,1 +1,0 @@
-print('Gigi linda!')
