@@ -23,6 +23,10 @@ if (not unsubscribed) and (location == "USA" or location == "CAN"):
 
 
 
+lst_1 = ['a','b','c','d']
+lst_2 = ['a','d']
 
+for i in lst_2: 
+    lst_1.remove(i)
 
-
+print(lst_1)    
