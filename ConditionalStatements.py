@@ -1,5 +1,7 @@
 # IF STATEMENT
 
+phone_balance = 8
+
 if phone_balance < 5:
     phone_balance += 10
     bank_balance -= 10
