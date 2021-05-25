@@ -55,7 +55,8 @@ points = []
 # write your for loop here
 
 for l,x,y,z in zip(labels,x_coord,y_coord,z_coord):
-    points.append(l+": "+str(x)+', '+str(y)+', '+str(z))
+   # points.append(l+": "+str(x)+', '+str(y)+', '+str(z))
+   points.append("{}: {}, {}, {}".format(*point))
 
 
 for point in points:
@@ -67,9 +68,7 @@ for point in points:
 cast_names = ["Barney", "Robin", "Ted", "Lily", "Marshall"]
 cast_heights = [72, 68, 72, 66, 76]
 
-cast = {}
-for n, h in (zip(cast_names,cast_heights)):
-    cast[n]=h
+cast = dict(zip(cast_names, cast_heights))
 
 print(cast)
 
