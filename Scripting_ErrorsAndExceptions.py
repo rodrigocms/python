@@ -7,7 +7,5 @@
 # syntactically correct. There are different types of built-in exceptions in Python, and you can see 
 # which exception is thrown in the error message.
 
-print('rodrigo'[10:2])
 
 
-'rodrigo'.replace' 
